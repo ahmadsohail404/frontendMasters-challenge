@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+    <script src="./js/toggler.js" async defer></script>
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <main class="card">
+      <figure class="bg">
+        <svg
+          class="bg-img"
+          xmlns="http://www.w3.org/2000/svg"
+          width="1440"
+          height="449"
+        >
+          <path
+            fill="#F1F5FE"
+            fill-rule="evenodd"
+            d="M0 0h1440v449H191.5C85.737 449 0 363.263 0 257.5V0z"
+          />
+        </svg>
+      </figure>
+      <section class="container">
+        <header class="header">
+          <h1 class="heading-1">Simple, traffic-based pricing</h1>
+          <p class="paragraph mt-md">
+            Sign-up for our 30-day trial. No credit card required.
+          </p>
+          <i class="bi bi-brightness-high-fill" id="icon"></i>
+          <figure class="bg--header">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="146"
+              height="145"
+              alt="pattern-image"
+              class="pattern-img"
+            >
+              <g fill="none" fill-rule="evenodd" stroke="#CFD8EF">
+                <circle cx="63" cy="82" r="62.5" />
+                <circle cx="105" cy="41" r="40.5" />
+              </g>
+            </svg>
+          </figure>
+        </header>
+        <div class="pricing__box">
+          <div class="pageViews">
+            <span class="js-pageViews">100k</span> Pageviews
+          </div>
+          <div class="pricing">
+            <span class="month js-price">$16</span>
+            /month
+          </div>
+          <form class="slider" autocomplete="off">
+            <label for="rangeSlider"></label>
+            <div class="bar"><span class="fill js-fill"></span></div>
+            <input
+              type="range"
+              min="20"
+              max="100"
+              value="60"
+              step="20"
+              name="PriceSelected"
+              class="slider__range js-slider"
+              id="rangeSlider"
+            />
+            <button class="scr-rdr" type="submit">No submit</button>
+          </form>
+          <div class="billing">
+            <span class="billing--month">Monthly Billing</span>
+            <form autocomplete="off">
+              <label class="switch ml-sm">
+                <input type="checkbox" class="js-toggle" />
+                <span class="toggle round"></span>
+              </label>
+              <button class="scr-rdr" type="submit">No submit</button>
+            </form>
+            <span class="year ml-sm">Yearly Billing</span>
+            <span class="discount ml-sm"> 25% discount</span>
+          </div>
+          <div class="feature">
+            <ul class="feature__list">
+              <li class="feature__list--item">
+                <img
+                  src="images/icon-check.svg"
+                  alt="Check mark"
+                  class="feature--img"
+                />
+                Unlimited websites
+              </li>
+              <li class="feature__list--item">
+                <img
+                  src="images/icon-check.svg"
+                  alt="Check mark"
+                  class="feature--img"
+                />
+                100% data ownership
+              </li>
+              <li class="feature__list--item">
+                <img
+                  src="images/icon-check.svg"
+                  alt="Check mark"
+                  class="feature--img"
+                />
+                Email reports
+              </li>
+            </ul>
+            <button class="btn js-btn">Start my trial</button>
+          </div>
+        </div>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor.</a
+        >
+        Coded by
+        <a href="https://sohailahmad.netlify.app/" target="_blank"
+          >Sohail Ahmad</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
