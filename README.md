@@ -1,5 +1,9 @@
 # Frontend Mentor - Interactive pricing component
 
+
+https://user-images.githubusercontent.com/72069769/165588939-99a072e5-01ce-4298-b659-9684331c0136.mov
+
+
 ![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
@@ -64,9 +68,6 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
 ## Deploying your project
-
-
-Uploading frontendMentor-challenge.mov…
 
 
 As mentioned above, there are a number of ways to host your project for free. We recommend using [Vercel](https://bit.ly/fem-vercel) as it's an amazing service and extremely simple to get set up with. If you'd like to use Vercel, here are some steps to follow to get started:
